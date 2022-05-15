@@ -1,5 +1,9 @@
 package Det3;
 
-public class CipherType {
-
-}
+/**
+ * Enum containing all cipher types for use in switch statements in Controller
+ */
+public enum CipherType {
+  Caesar,
+  Vigenere,
+  }
